@@ -1,0 +1,370 @@
+@media (max-width: 500px){
+
+	*{
+		box-sizing: border-box;
+	}
+
+	.logo a img{
+		height: 15px;
+		width: 130px;
+	}
+	.logo button{
+		position: absolute;
+		top: 11px;
+		right: 10px;
+		padding: 8px 18px;
+	}
+
+	.d2
+	{
+		display: none;
+	}
+	.SecLine .d1 p{
+		font-size: 13px;
+		margin-left: 0px;
+	}
+	.menu
+	{
+		display: none;
+	}
+	.navi{
+		display: flex;
+         justify-content: space-between;
+	}
+	
+	.navi i{
+		display: block;
+	}
+
+	.img{
+		height: 450px;
+	}
+
+	.img .text h1{
+		font-size: 30px;
+	}
+
+	.img .text{
+			position: absolute;
+			top: 120px;
+			left: 40px;
+			width: 85%;
+		}
+
+		.img .text .gre{
+			font-size: 11px;
+			padding: 20px 150px;
+		}
+
+	.img .text button{
+		margin-left: 10px;
+		display: block;
+		margin-top: 10px;
+		padding: 19px 150px;
+		font-size: 12px;
+	}
+
+	.d4{
+		display: block;
+	}
+
+	.d4 .icon .i1{
+		margin-left: 90px;
+		margin-top: 30px;
+	}
+
+	.main2{
+		display: block;
+	}
+	.main2 img{
+		margin-top: 23px;
+		height: 450px;
+		width: 484px;
+	}
+	.main2 .d1{
+		margin-left: 1px;
+	}
+
+	.main2 .d1 .h1{
+		font-size: 25px;
+	}
+	.main2 .d1 .p2{
+		font-size: 15px;
+	}
+
+	/*		3icons*/
+	
+		.mainThird{
+			display: block;
+/*			justify-content: center;*/
+			margin-left: 1px;
+/*			margin-top: 80px;*/
+
+		}
+		.third{
+			width: 96%;
+			margin: 10px;
+			margin-top: 60px;
+		}
+
+		.third .third1{
+			margin-left: 190px
+		}
+
+		.mainThird .third .third11{
+			margin-left: 190px
+		}
+		.mainThird .MainArrow1{
+			margin-left: 40%;
+		}
+
+/*		image*/
+		.mainImage .img22{
+			display: none;
+		}
+		.mainImage .img11{
+			display: block;
+			margin-top: 50px;
+			height: 380px;
+			width: 484px;
+			position: relative;
+		}
+
+		.mainImage .mainImage1{
+			position: absolute;
+			top: 100px;
+			left: 10px;
+			width: 100%;
+			font-size: 10px;
+		}
+
+		.Greenfields{
+			text-align: center;
+			margin-left: 35px;
+			font-size: 12px;
+			width: 85%;
+		}
+
+		.main4{
+			margin-top: 40px;
+			margin-left: 10px;
+			display: block;
+
+
+		}
+
+		.main4 .mainT{
+			width: 460px;
+			height: 560px;
+			margin-left: 1px;
+
+		}
+		.main4 .mainT .screwText{
+			padding-top: 15px;
+		}
+		
+		.main4 .mainT .img img{
+			width: 450px;
+		}
+		.main5{
+			width: 90%;
+			margin-left: 20px;
+			font-size: 14px;
+		}
+
+		.main6 img{
+			height: 350px;
+			width: 450px;
+		}
+		.main7{
+			display: block;
+			width: 97%;
+			margin-left: 10px;
+		}
+		.main7 .ddd h1{
+			font-size: 40px;
+		}
+
+		.main8Text{
+			background: linear-gradient(rgba(7, 7, 7, 0.4), rgba(7, 7, 7, 0.4)), url("images/close.jpg");
+			background-size: 100% 70%;
+			background-repeat: no-repeat;
+			font-size: 15px;
+
+		}
+
+		.main8Text h1{
+			width: 90%;
+			margin-left: 8%;
+			font-size: 24px;
+			margin-top: -80px;
+		}
+		.main8Text p{
+			margin-top: -1px;
+			font-size: 13px;
+			width: 90%;
+			margin-left: 8%;
+
+		}
+		.main8Text button{
+			padding: 20px 30px;
+		}
+
+		.main9{
+			margin-top: 0;
+			margin-left: 0px;
+		}
+		.main9 .main91 h1{
+			font-size: 23px;
+			width: 400px;
+
+		}
+		.main9 .main91{
+			margin: 0px 0 0 25px;
+		}
+		.main9 img{
+			display: none;
+		}
+		.main9 .main91 .loren{
+			width: 95%;
+			font-size: 14px;
+		}
+		.main9 .main91 .leaf1{
+			display: block;
+		}
+		.main9 .main91 .leaf i{
+			font-size: 25px;
+			height: 55px;
+			width: 55px;
+			line-height: 55px;
+		}
+		.main9 .main91 .leaf1 .leaf:last-child{
+			margin-left: 0px;
+		}
+		.main9 .main91 .leaf1 h3{
+			font-size: 17px;
+		}
+		.main9 .main91 .leaf1 .leaf p{
+			width: 95%;
+			font-size: 14px;
+		}
+		.img333{
+			display: block;
+			border: 12px solid green;
+			border-radius: 10px;
+		}
+		.main10{
+			display: block;
+			margin-left: 0px;
+		}
+		.main10 .mainT{
+			height: 430px;
+			width: 450px;
+			margin: 25px 0 0 20px;
+		}
+		.main10 .mainT .img img{
+			height: 250px;
+		}
+		.main10 .mainT .img div{
+			font-size: 11px;
+		}
+		.main10 .mainT .img div p{
+			font-size: 13px;
+			line-height: 21px;
+		}
+		.main11{
+			height: 400px;
+		}
+		.main11 .main111 .d1{
+			height: 200px;
+			width: 450px;
+			line-height: 22px;
+			text-align: justify;
+		}
+		.main11 .main111 .d1:last-child{
+			display: none;
+			
+		}
+		.main11 .main111 .d1:nth-child(2){
+			display: none;
+			
+		}
+		.main11 .text{
+			font-size: 15px;
+			line-height: 20px;
+			padding-top: 15px;
+		}
+		.main12{
+			overflow: hidden;
+		}
+		.main13{
+			padding: 20px;
+		}
+		.main13 h1{
+			margin-top: 20px;
+/*			line-height: 25px;*/
+		}
+		.main13 button{
+			margin-top: 5px;
+		}
+		.main14{
+			display: block;
+			height: 240%;
+			width: 100%;
+			background: black;
+		}
+		footer .f1{
+			height: 150px;
+			width: 450px;
+			margin-left: 20px;
+			font-size: 13px;
+		}
+		footer .f1:last-child{
+			width: 450px;
+		}
+		footer .f1:nth-child(2) a{
+			display: block;
+		}
+		
+		footer .main14 .f1:nth-child(3){
+			padding-top: 50px;
+		}
+		footer .main14 .f1:last-child{
+			padding-top: 50px;
+			font-size: 13px;
+		}
+		footer .main14 .f1 .ppp{
+			font-size: 13px;
+		}
+		footer .main14 .f1 .p2{
+			margin-left: 0px;
+			font-size: 13px;
+		}
+		footer .main14 .f1 .input1{
+			width: 445px;
+		}
+		footer .f1 .a{
+			padding: 15px 200px;
+		}
+		footer .main14 .f1:nth-child(1){
+			margin-top: 0px;
+		}
+		footer .main14 .f1 img{
+			margin-top: 50px;
+		}
+		.line-4{
+			display: none;
+		}
+		.main16{
+			display: none;
+		}
+		
+		
+
+
+
+
+
+
+
+}

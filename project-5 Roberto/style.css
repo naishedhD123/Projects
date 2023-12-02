@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+Lepcha&family=Nunito:ital,wght@0,200;0,300;0,400;1,600&family=Oswald:wght@200&family=Roboto:wght@300;400;500&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Noto Sans Lepcha', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+  overflow-x: hidden;
+}
+
+.bar {
+  background-color: rgb(14, 39, 55);
+}
+
+.contact i {
+  color: rgb(28, 195, 178);
+}
+
+ul,
+.dropdown {
+  list-style: none;
+  font-size: 17px;
+}
+
+.book-now {
+  background-color: aqua;
+}
+
+.logo {
+  padding-top: 5px;
+
+}
+
+.carousel-item {
+  height: 700px;
+}
+
+.b3 {
+  background-color: rgb(28, 195, 178);
+}
+
+.b3:hover {
+  background-color: white;
+  box-shadow: 0 0 40px black;
+  color: #1cc3b2!important;
+}
+
+.fg {
+  margin: 0 30px;
+}
+
+.fg1 {
+  margin-left: 30px;
+}
+
+.main {
+  position: relative;
+}
+
+.shadow1 {
+  position: absolute;
+  bottom: -60px;
+  left: 100px;
+}
+
+.about-us {
+  margin-top: 100px;
+}
+
+.about-us .part1 h2 {
+  font-size: 40px;
+}
+
+
+.facilities .row .col{
+  height: 140px;
+}
+
+.f-room {
+  height: 100vh;
+}
+
+.same2 {
+  margin-left: 100px;
+}
+
+.rooms {
+  margin-top: 100px;
+}
+.rooms .part2 h2{
+  font-size: 45px;
+}
+
+.rooms .part2 {
+  background-color: #0e2737;
+  padding: 100px 0 100px 50px;
+  width: 50%;
+}
+
+.rooms .part2 .btn {
+  background-color: #1cc3b2;
+  padding: 10px 45px;
+  color: white;
+  border-radius: 3px;
+}
+
+.Testimonials {
+  padding: 90px 0;
+}
+
+.Testimonials .manImg {
+  height: 400px;
+}
+
+.Testimonials .row .part2 h4,
+span {
+  color: #1cc3b2;
+}
+.gallery{
+  height: 500px;
+}
+.news .row h5{
+  color: #1cc3b2;
+  letter-spacing: 2px;
+}
+.news .row h2{
+  letter-spacing: 1px;
+  font-size: 43px;
+}
+.news .d-flex .same3{
+  max-width: 400px;
+}
+
+.news .d-flex .same3:hover{
+  color: #1cc3b2;
+}
+.news .d-md-flex .same3 .arrow{
+  font-size: 22px;
+}
+
+.contacts{
+  background: url("img/1.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  margin-top: 90px;
+}
+.contacts .text-end button{
+  background-color: #1cc3b2;
+  color: white;
+  border-radius: 3px;
+}
+.contacts .text-end button:hover{
+  color: #1cc3b2;
+  background-color: white;
+  transition: 0.7s;
+}
+.contacts .row p{
+  font-size: 18px;
+}
+.images .row .same4{
+  height: 55px;
+}
+
+footer{
+  background-color: #0e2737;
+}
+footer .same5 .r{
+  height: 40px;
+  width: 150px;
+  color: white;
+}
+
+footer .same7 ul{
+  list-style: none;
+}
+footer .same8 div input{
+  background-color: #3e525f;
+  color: white;
+}
+footer .same8 div input:focus{
+  background-color: #3e525f;
+  color: white;
+}
+footer .same8 div i{
+  background-color: #3e525f;
+}

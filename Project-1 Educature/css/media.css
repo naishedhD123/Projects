@@ -1,0 +1,235 @@
+@media(max-width: 500px)
+{
+  main{
+    background-size: 100% 600%;
+  }
+  main header{
+    padding: 15px 20px;
+  }
+  main header ul{
+    display: none;
+  }
+  header .fa-solid{
+    display: block;
+    padding-top: 10px;
+  }
+
+
+
+  main .content{
+    width: 100%;
+    font-size: 15px;
+  }
+  main .content h1{
+    font-size: 30px;
+  }
+  main .content .inp input{
+    left: 0;
+    padding-right: 90px;
+  }
+  main .content .inp .search{
+    right: 0;
+  }
+  main .content .course .courses-name{
+    padding: 0 0;
+  }
+
+
+
+
+  .art{
+    padding: 0;
+  }
+  .art .platform{
+    padding: 40px 30px;
+  }
+  .art .platform h1{
+    font-size: 30px;
+  }
+  .dif-course{
+    padding: 0;
+  }
+  .dif-course .idea{
+    margin: 50px 0;
+    width: auto;
+  }
+  .dif-course .idea h1{
+    font-size: 30px;
+  }
+  .dif-course .courses2 button{
+    width: 410px;
+  }
+  .dif-course .courses2{
+    width: 100%;
+  }
+
+
+  .features{
+    padding: 20px;
+  }
+  .features .f-heading{
+    padding: 0;
+  }
+  .features .boxes .common
+  {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+
+
+  .faculty .members{
+    padding: 0;
+  }
+  .faculty{
+    padding: 50px 10px;
+  }
+  .faculty .person .same{
+    width: 100%;
+    margin-bottom: 145px;
+  }
+  .faculty .person .same .im{
+    left: 140px;
+  }
+  .faculty .members h1{
+    font-size: 30px;
+  }
+
+
+
+  .spencer{
+    padding: 40px 0 20px 0;
+  }
+  .spencer p{
+    padding: 20px;
+  }
+
+
+
+  .footer{
+    padding: 40px 0;
+  }
+  .footer .box{
+    display: block;
+  }
+  .footer .box .same2 .inp2 button{
+    right: 130px;
+  }
+  .copyright
+  {
+    margin: 30px;
+  }
+  .copyright .ic{
+    margin-top: 20px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 475px)
+{
+  main .content .inp input{
+    left: 10px;
+    width: 350px;
+    padding-right: 40px;
+  }
+  main .content .inp .search{
+    right: 10px;
+  }
+  main .content .course .courses-name{
+    padding: 0 0;
+  }
+  .faculty .person .same .im{
+    left: 140px;
+  }
+
+}
+
+@media(max-width: 450px)
+{
+  .faculty .person .same .im
+  {
+    left: 100px;
+  }
+  main .content .inp input{
+    padding-right: 70px;
+  }
+  .footer .box .same2 .inp2 button{
+    right: 80px;
+  }
+
+}
+
+
+
+@media(max-width: 391px)
+{
+  main .content .inp input
+  {
+    width: 245px;
+    padding-right: 15px;
+  }
+  main .content .inp .search{
+    padding-bottom: 8px;
+    right: 20px;
+  }
+  main .content .course .courses-name{
+    padding: 0 0;
+  }
+  .features .boxes .common{
+    height: auto;
+  }
+  .faculty .person .same .im{
+    left: 95px;
+  }
+  .footer .box .same2 .inp2 button{
+    right: 20px;
+  }
+}
+
+
+
+
+@media(max-width: 376px)
+{
+  .faculty .person .same .im
+  {
+    left: 90px;
+  }
+  main .content .inp input
+  {
+    padding-right: 30px;
+  }
+}
+
+
+
+@media(max-width:361px)
+{
+  .faculty .person .same .im
+  {
+    left: 80px;
+  }
+  main .content .inp input
+  {
+    padding-right: 50px;
+  }
+}
+

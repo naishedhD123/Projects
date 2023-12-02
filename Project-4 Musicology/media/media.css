@@ -1,0 +1,232 @@
+/* Extra large */
+@media(max-width: 1221px){
+  .d-tour .images .sec1{
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  .d-tour .heading-sec{
+    width: 60%;
+  }
+  .pricing .dives .same{
+    width: 300px;
+    height: auto;
+  }
+  .pricing .dives .same button{
+    padding: 10px 80px;
+  }
+  .pricing .heading{
+    width: 70%;
+  }
+  .herbert .overlay p{
+    width: 70%;
+  }
+  .sub p{
+    width: 70%;
+  }
+}
+
+/* Large device */
+@media(max-width: 992px){
+
+  nav ul{
+    display: none;
+  }
+  header .search{
+    display: none;
+  }
+  header .bar{
+    display: block;
+  }
+  .slide div h1{
+    font-size: 80px;
+  }
+  .d-tour .images .sec1{
+    margin: 0 10px 50px 10px;
+  }
+  .pricing .dives .same button{
+    padding: 10px 50px;
+  }
+  .pricing .heading{
+    width: 80%;
+  }
+  .herbert .overlay p{
+    width: 80%;
+  }
+  .herbert .overlay{
+    padding: 37% 0;
+  }
+  .sub p{
+    width: 80%;
+  }
+
+}
+
+@media(max-width: 675px){
+  .slide .d{
+    width: 100%;
+  }
+}
+
+/* Medium device */
+@media(max-width: 768px){
+  .slide .d{
+    bottom: 50px;
+  }
+  .d-tour .images .sec1{
+    margin: 20px;
+  }
+  .slide .d h1{
+    font-size: 60px;
+    padding: 40px 0;
+  }
+  .d-tour .heading-sec{
+    width: 80%;
+  }
+  .d-tour .images{
+    flex-wrap: wrap;
+  }
+  .d-tour .images .sec1{
+    width: 100%;
+    height: auto;
+  }
+  .pricing .dives{
+    flex-wrap: wrap;
+  }
+  .pricing .heading{
+    width: 100%;
+    padding: 10px;
+  }
+  .pricing .dives .same{
+    width: 100%;
+    margin: 30px 0;
+  }
+  .d-tour .images{
+    padding: 60px 0 20px 0;
+  }
+  .pricing .dives .same button{
+    padding: 10px 150px;
+  }
+  .main-amazing-sec{
+    display: block;
+  }
+  .main-amazing-sec .img{
+    width: 100%;
+    height: 695px;
+  }
+  .main-amazing-sec .a-dance{
+    width: 100%;
+    height: 695px;
+    padding: 220px 70px;
+  }
+  hr{
+    display: block;
+  }
+  .herbert .overlay p{
+    width: 100%;
+    font-size: 25px;
+  }
+  .herbert .overlay{
+    padding: 50% 0;
+    font-size: 25px;
+  }
+  .herbert .overlay h2{
+    font-size: 25px;
+  }
+  .sub p{
+    width: 90%;
+  }
+  footer{
+    display: block;
+  }
+  footer .same1{
+    width: 100%;
+  }
+
+}
+
+
+/* Small device */
+@media(max-width: 576px){
+  header{
+    padding: 0 30px;
+  }
+  header .logo{
+    height: 50px;
+    width: 100px;
+  }
+  header .bar{
+    padding-top: 30px;
+    font-size: 20px;
+  }
+  .slide .d{
+    padding: 50px;
+  }
+  .slide .d h1{
+    font-size: 50px;
+  }
+  .slide .d button{
+    padding: 10px 30px;
+  }
+  .d-tour .heading-sec{
+    width: 90%;
+  }
+  .d-tour .heading-sec h2{
+    font-size: 35px;
+  }
+  .d-tour .images{
+    padding: 50px 0 20px 0;
+  }
+  .pricing .heading h2{
+    font-size: 35px;
+  }
+  .pricing .dives .same{
+    padding: 60px 20px;
+    margin: 20px 0;
+  }
+  .pricing .dives .same .text h2{
+    font-size: 20px;
+  }
+  .pricing .dives .same button{
+    padding: 10px 50px;
+  }
+  .main-amazing-sec .a-dance{
+    padding: 220px 30px;
+  }
+  .main-amazing-sec .a-dance h2{
+    font-size: 35px;
+  }
+  .main-os .os h2{
+    font-size: 35px;
+  }
+  .main-os .os p{
+    width: 100%;
+  }
+  .main-os .s-count{
+    display: block;
+    padding: 30px;
+  }
+  .main-os .s-count .same{
+    padding: 20px 0;
+  }
+  .main-os .s-count .same h2{
+    font-size: 30px;
+  }
+  .herbert .overlay{
+    padding: 80% 0;
+  }
+  .sub p{
+    width: 100%;
+  }
+  .inp{
+    max-width: 350px;
+  }
+  .inp input{
+    padding: 15px 50px 15px 10px;
+  }
+  .sub h2{
+    font-size: 35px;
+  }
+  .same h2{
+    font-size: 25px;
+}
+}

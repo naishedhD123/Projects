@@ -1,0 +1,14 @@
+.container{
+    width: 300px;
+    background: rgb(184, 215, 83);
+    margin:200px auto;
+    text-align: center;
+    padding: 50px;
+}
+.container #btn{
+    padding: 8px 30px;
+    background: rgb(1, 94, 125);
+    color: white;
+    font-size: 20px;
+    
+}

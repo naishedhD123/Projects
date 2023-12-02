@@ -1,0 +1,356 @@
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: 'Montserrat', sans-serif; color: white ;}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+/* ul{
+  list-style: none;
+  text-transform: uppercase;
+} */
+/* Header section start */
+header{
+  background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  font-size: 18px;
+}
+nav ul{
+  display: flex;
+  text-transform: uppercase;
+  list-style: none;
+  color: wh;
+}
+nav ul li{
+  margin-right: 40px;
+  padding-top: 40px;
+}
+header .logo{
+  margin: 15px 0;
+}
+header .search{
+  padding-top: 40px;
+}
+header .bar{
+  display: none;
+  padding-top: 40px;
+  font-size: 23px;
+}
+/* Header section end */
+
+/* Slider section start */
+.slide{
+  background: url("../img/slider.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 695px;
+  position: relative;
+}
+.slide .d{
+  width: 670px;
+  padding: 50px 70px;
+  line-height: 20px;
+  /* border: 3px solid green; */
+  position: absolute;
+  bottom: 0;
+
+}
+.slide div h1{
+  padding: 55px 0;
+  font-size: 100px;
+}
+.slide div button{
+  margin: 20px 0;
+  padding: 15px 40px;
+  background-color: #e8631c;
+  border: none;
+  cursor: pointer;
+}
+
+/* Slider section end */
+
+/* Dance Tour section end */
+.d-tour{
+  background: #e8631c;
+  text-align: center;
+  /* border: 3px solid  yellow; */
+  padding-bottom: 70px;
+  position: relative;
+  overflow: hidden;
+}
+.d-tour .shape{
+  position: absolute;
+  top: -400px;
+  left: -400px;
+  z-index: 0;
+}
+.d-tour .heading-sec{
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+  /* border: 3px solid green; */
+  /* z-index: 2; */
+}
+.d-tour .heading-sec h2{
+  font-size: 40px;
+  padding: 20px 0;
+}
+.d-tour .images{
+  display: flex;
+  justify-content: center;
+  /* border: 5px solid red; */
+  padding: 80px 0 20px 0;
+  /* z-index: 1; */
+}
+.d-tour .images .sec1{
+  width: 377px;
+  margin: 0 30px;
+  /* border: 3px solid green; */
+}
+.d-tour .images .sec1 .text{
+  background-color: #111111;
+  position: static;
+  width: 100%;
+  padding: 30px 20px;
+  margin-top: -4px;
+}
+.d-tour .images .sec1 .text h3{
+  padding: 10px 0;
+}
+/* Dance Tour section end */
+
+/* Pricing section start */
+.pricing{
+  text-align: center;
+  background-color: #303030;
+  /* border: 3px solid magenta; */
+  padding: 30px 20px;
+}
+.pricing .heading{
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+  /* border: 3px solid gray; */
+}
+.pricing .heading h2{
+  font-size: 35px;
+  padding: 30px 0;
+}
+.pricing .dives{
+  display: flex;
+  justify-content: center;
+  /* border: 3px solid yellow; */
+  width: 100%;
+}
+.pricing .dives .same{
+  /* border: 3px solid green; */
+  padding: 90px 20px;
+  width: 370px;
+  height: 490px;
+  background-color: #e8631c;
+  margin: 30px 20px;
+}
+.pricing .dives .same .medol{
+  font-size: 70px;
+  transform: rotate(180deg);
+}
+.pricing .dives .same .text h2{
+  padding: 20px 0;
+}
+.pricing .dives .same p{
+  padding: 20px 0;
+}
+.pricing .dives .same button{
+  padding: 10px 100px;
+  border: none;
+  background-color: #303030;
+  font-size: 18px;
+  margin: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Amazing Dance section start */
+hr{
+  display: none;
+}
+
+.main-amazing-sec{
+  display: flex;
+}
+.main-amazing-sec .img{
+  height: 995px;
+  width: 50%;
+}
+.main-amazing-sec .a-dance{
+  height: 995px;
+  width: 50%;
+  padding: 350px 70px;
+  background-color: #e8631c;
+  /* margin: auto; */
+}
+.main-amazing-sec .a-dance h2{
+  font-size: 45px;
+}
+.main-amazing-sec .a-dance p{
+  padding: 30px 0;
+}
+.main-amazing-sec .a-dance button{
+  padding: 15px 70px;
+  background-color: #303030;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Amazing Dance section end */
+
+
+/* Statistics section start */
+
+.main-os
+{
+  text-align: center;
+  background-color: #303030;
+  padding: 100px 20px;
+}
+.main-os .os h2{
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 20px 0;
+}
+.main-os .os p{
+  width: 500px;
+  margin: auto;
+  font-size: 18px;
+  /* border: 2px solid green; */
+}
+.main-os .s-count{
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  justify-content: space-around;
+  /* border: 3px solid yellow; */
+}
+
+.main-os .s-count .same h2{
+  font-size: 40px;
+}
+.main-os .s-count .same p{
+  font-size: 25px;
+}
+/* Statistics section end */
+
+  .herbert{
+    background: url('../img/h.png');
+    background-size: cover;
+    height: 960px;
+    width: 100%;
+    text-align: center;
+
+
+  }
+  .herbert .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 89, 0, 0.4);
+  }
+  .herbert .overlay{
+    padding: 27% 0;
+  }
+  .herbert .overlay p{
+    font-size: 35px;
+    width: 55%;
+    /* border: 2px solid yellow; */
+    margin: auto;
+    padding: 30px 10px;
+  }
+  .herbert .overlay h2{
+    font-size: 35px;
+  }
+
+/* Herbert section start */
+
+/* Subscribe section start */
+
+.sub{
+  background-color: #e8631c;
+  padding: 100px 20px;
+  text-align: center;
+}
+.sub h2{
+  font-size: 45px;
+}
+.sub p{
+  width: 50%;
+  margin: 30px auto;
+  /* border: 2px solid green; */
+}
+.inp{
+  position: relative;
+  max-height: 50px;
+  max-width: 490px;
+  /* border: 2px solid yellow; */
+  text-align: left;
+  margin: 40px auto;
+}
+.inp input{
+  padding: 15px 165px 15px 10px;
+  color: black;
+  border: none;
+}
+.inp button{
+  padding: 15px 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: #303030;
+  cursor: pointer;
+}
+/* Subscribe section start */
+
+/* footer section start */
+
+  footer{
+    text-align: center;
+    display: flex;
+    background-color: #303030;
+    padding: 100px 0 30px 0;
+    justify-content: space-evenly;
+  }
+  footer .same1{
+    width: 500px;
+    /* border: 2px solid green; */
+  }
+  footer .same{
+    padding: 20px;
+    text-align: left
+  }
+  footer .same ul{
+    padding: 20px 0;
+  }
+  footer .same p{
+    font-size: 17px;
+    padding: 20px 0;
+    line-height: 23px;
+  }
+  footer .same .icon i{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  footer .same ul a{
+    display: block;
+    padding: 8px 0;
+    font-size: 18px;
+  }
+  .same h2{
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+
+
+/* footer section end */

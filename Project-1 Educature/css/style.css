@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha&family=Nunito:ital,wght@0,200;0,300;0,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Lepcha', sans-serif;
+    font-family: 'Nunito', sans-serif;;
+}
+p{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+main {
+    background-image: url("../img/header-bg.png");
+    background-size: 100% 100%;
+    color: white;
+    /* height: auto; */
+}
+
+main header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 150px;
+}
+
+main header ul {
+    display: flex;
+    margin-top: 10px;
+    list-style: none;
+}
+
+main header ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 17px;
+    color: white;
+}
+main header ul li a:hover{
+    color: blueviolet;
+}
+
+header .fa-solid {
+    display: none;
+    font-size: 20px;
+}
+
+
+
+
+main .content {
+    width: 670px;
+    height: 50%;
+    margin: 130px auto;
+    text-align: center;
+    padding: 0 10px;
+    gap: 100px;
+}
+
+main .content h1 {
+    font-size: 50px;
+}
+main .content p {
+    font-size: 17px;
+    margin-top: 20px;
+    color: white;
+}
+main .content .inp{
+    position: relative;
+    margin-top: 30px;
+}
+main .content .inp input{
+    width: 450px;
+    height: 45.5px;
+    border: none;
+    padding: 0 20px;
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    outline: none;
+}
+main .content .inp .search{
+    padding: 7px 20px;
+    background: linear-gradient(#45B5D8, #067293);
+    position: absolute;
+    top: 0;
+    right: 70px;
+    border: 5px solid white;
+}
+main .content .course{
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+main .content .course .courses-name p{
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px 5px;
+    font-size: 15px;
+    display: inline-block;
+}
+main .content .course .courses-name{
+    padding: 10px 160px;
+    height: auto;
+}
+
+
+
+.art{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 130px;
+    margin: 80px 0;
+}
+.art .durbin{
+    max-height: 470px;
+    width: 450px;
+    padding: 20px;
+}
+.art .platform{
+    width: 500px;
+    color: black;
+    padding: 80px 30px;
+}
+.art .platform h1{
+    font-size: 40px;
+}
+.art .platform p{
+    margin: 25px 0;
+}
+.art .platform button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to right, #67CAE8,#2A97B8);
+    color: white;
+    font-size: 15px;
+}
+.art .platform button:hover{
+    background: #2A97B8;
+    transition: 0.5s;
+}
+
+
+
+.dif-course{
+    background-color: #E7F5F9;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: space-evenly;
+}
+.dif-course .idea{
+    width: 450px;
+    margin-top: 110px;
+    padding: 0 20px;
+}
+.dif-course .idea h1{
+    padding: 20px 0;
+    font-size: 40px;
+}
+.dif-course .idea button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.dif-course .idea button:hover{
+    background: linear-gradient(to right, #4AE2E0 , #1997B9 );
+    color: white;
+    transition: 0.7s;
+}
+.dif-course .courses2{
+    width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-color: white;
+    justify-content: center;
+}
+.dif-course .courses2 button{
+    height: 55px;
+    width: 210px;
+    margin: 10px 15px;
+    border: none;
+    background-color: #F4FAFC;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    padding-left: 30px;
+}
+.dif-course .courses2 button:hover
+{
+    background: linear-gradient(to right, #4AE2E0 , #1997B9 );
+    color: white;
+    transition: 0.7s;
+}
+
+.features{
+    text-align: center;
+    padding: 150px;
+}
+.features .f-heading{
+    padding: 0 200px;
+}
+.features .f-heading h1{
+    margin: 20px 0;
+}
+.features .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.features .boxes .common{
+    background-color: #E7F5F9;
+    margin: 15px;
+    padding: 40px;
+    height: 270px;
+    width: 340px;
+    text-align: left;
+}
+.features .boxes .common i{
+    font-size: 40px;
+}
+.features .boxes .common h2{
+    margin: 20px 0;
+}
+.features .boxes .common:hover{
+    background: white;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.im{
+    height: 150px;
+    width: 150px;
+}
+.faculty{
+    text-align: center;
+    background: #E7F5F9;
+    padding: 100px;
+}
+.faculty .members{
+    padding: 0 300px;
+}
+.faculty .members h1{
+    margin: 20px 0;
+    font-size: 40px;
+}
+.faculty .person{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 190px;
+}
+.faculty .person .same{
+    background: white;
+    margin: 20px;
+    width: 250px;
+    padding: 30px;
+    position: relative;
+}
+.faculty .person .e-name{
+    margin: 20px 0;
+}
+.faculty .person .e-name span{
+    color: rgba(0, 0, 0, 0.6);
+}
+.faculty .person .same .im{
+    position: absolute;
+    top: -120px;
+    left: 53px;
+}
+.faculty .person .icon{
+    margin: 20px 0;
+}
+.faculty .person .icon i{
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0.3);
+}
+.faculty .person .icon i:hover{
+    color: black;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+.spencer{
+    text-align: center;
+    padding: 100px;
+}
+.spencer h1{
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.1);
+}
+.spencer h3{
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+.spencer .star{
+    color: yellow;
+}
+.spencer p{
+    padding: 20px 300px;
+    line-height: 25px;
+}
+.spencer .photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.spencer .photo img{
+    margin: 0 10px;
+    max-height: 80px;
+    max-width: 80px;;
+}
+
+.footer{
+    background: #003566;
+    padding: 100px 100px 100px 50px;
+}
+.footer .box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer .box .same2{
+    padding: 30px;
+}
+.footer .box .same2 h3{
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+.footer .box .same2 ul{
+    list-style: none;
+}
+.footer .box .same2 ul li{
+    margin: 15px 0;
+}
+.footer .box .same2 ul a{
+    text-decoration: none;
+    color: rgba(119, 119, 119, 1);
+}
+.footer .box .same2 p{
+    color: rgba(119, 119, 119, 1);
+}
+.footer .box .same2 .inp2 input{
+    padding: 10px 100px 10px 10px;
+    border: none;
+}
+.footer .box .same2 .inp2{
+    position: relative;
+    margin-top: 20px;
+}
+.footer .box .same2 .inp2 button
+{
+    padding: 8.8px 15px;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    border: none;
+    background: linear-gradient(to right, #6EB9FF, #0472D9);
+    color: white;
+}
+.copyright{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 160px ;
+    justify-content: space-between;
+    color: white;
+
+}
+.copyright p{
+    color: white;
+    margin: 10px 0;
+}
+.copyright span{
+    color: #45B5D8;
+}
+.copyright .ic a{
+    margin-right: 5px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
